@@ -10,6 +10,7 @@ public class IEBrowserExecution {
 		
 		System.setProperty("webdriver.ie.driver", "C:\\eclipse\\IEDriverServer.exe");
 		WebDriver driver=new InternetExplorerDriver();
+		System.out.println("Navigate to Facebook");
 		driver.get("https://www.facebook.com");
 		System.out.println(driver.getTitle());
 		System.out.println("Test End");
